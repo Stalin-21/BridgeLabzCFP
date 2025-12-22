@@ -1,0 +1,13 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="day1-tomcat-servlet">
+    <output-path>$PROJECT_DIR$/out/artifacts/day1_tomcat_servlet</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="day1-tomcat-servlet" />
+        </element>
+      </element>
+      <element id="dir-copy" path="$PROJECT_DIR$/day1-tomcat-servlet/webapp" />
+    </root>
+  </artifact>
+</component>

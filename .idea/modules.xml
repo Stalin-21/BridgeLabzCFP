@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/BridgeLabzCFP.iml" filepath="$PROJECT_DIR$/.idea/BridgeLabzCFP.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JavaSpringBoot/day1-tomcat-servlet/day1-tomcat-servlet.iml" filepath="$PROJECT_DIR$/JavaSpringBoot/day1-tomcat-servlet/day1-tomcat-servlet.iml" />
+      <module fileurl="file://$PROJECT_DIR$/javahttpserver/javahttpserver.iml" filepath="$PROJECT_DIR$/javahttpserver/javahttpserver.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JavaSpringBoot/out/out.iml" filepath="$PROJECT_DIR$/JavaSpringBoot/out/out.iml" />
+    </modules>
+  </component>
+</project>
