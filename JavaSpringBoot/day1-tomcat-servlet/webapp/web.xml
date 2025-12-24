@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee
+         http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
+         version="3.1">
+
+    <!-- ServletContext parameter -->
+    <context-param>
+        <param-name>applicationName</param-name>
+        <param-value>BridgeLabz Servlet Application</param-value>
+    </context-param>
+
+    <!-- Servlet definition -->
+    <servlet>
+        <servlet-name>ConfigContextServlet</servlet-name>
+        <servlet-class>
+            com.stalin.day1.uc5.context.ConfigContextServlet
+        </servlet-class>
+
+        <!-- ServletConfig parameter -->
+        <init-param>
+            <param-name>servletName</param-name>
+            <param-value>ConfigContextServlet</param-value>
+        </init-param>
+    </servlet>
+
+    <!-- Servlet mapping -->
+    <servlet-mapping>
+        <servlet-name>ConfigContextServlet</servlet-name>
+        <url-pattern>/config-context</url-pattern>
+    </servlet-mapping>
+
+</web-app>
